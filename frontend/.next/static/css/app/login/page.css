@@ -1,0 +1,234 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/app/styles/flash.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.toast-box {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  border-radius: 12px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: flex-start;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  min-width: 300px;
+  max-width: 350px;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.toast-left {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.toast-icon-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toast-check {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.success .toast-check {
+  color: #2bd47d;
+}
+
+.toast-body {
+  flex-grow: 1;
+}
+
+.toast-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.toast-msg {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.toast-bar {
+  height: 3px;
+  margin-top: 8px;
+  border-radius: 6px;
+  background: linear-gradient(to right, #2bd47d, #2196f3);
+  animation: shrink 3s linear forwards;
+}
+
+.toast-bar.error-bar {
+  background: linear-gradient(to right, #ff4444, #e91e63);
+}
+
+.toast-close {
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.toast-close:hover {
+  color: #fff;
+}
+
+@keyframes shrink {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .toast-box {
+    right: 10px;
+    left: 60px;
+    max-width: calc(100% - 0%);
+  }
+}
+
+@media (max-width: 384px) {
+  .toast-box {
+    left: 10px;
+    right: 10px;
+    max-width: calc(100% - 20px);
+    min-width: auto;
+    font-size: 13px;
+    padding: 12px 14px;
+  }
+  .toast-title {
+    font-size: 14px;
+  }
+  .toast-msg {
+    font-size: 12px;
+  }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/styles/Authentication.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.Authentication_pageContainer__t0qxs {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #454546, #e5e8ed);
+  padding: 2rem;
+}
+
+.Authentication_card___8zMP {
+  background: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  width: 380px;
+  text-align: center;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.Authentication_card___8zMP:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.Authentication_mainTitle__hqCS2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.Authentication_title__qfprh {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 1.5rem;
+}
+
+.Authentication_form__ZqpgH {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.Authentication_input__X7Nqb {
+  padding: 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.Authentication_input__X7Nqb:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+.Authentication_button__g7FAK {
+  background: #404041;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition:
+    background 0.3s,
+    transform 0.2s;
+}
+
+.Authentication_button__g7FAK:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.Authentication_signupText__7r3OO {
+  font-size: 0.9rem;
+  color: #0b5ac9;
+  margin-top: 0.5rem;
+}
+
+.Authentication_signupLink__TjTF5 {
+  color: #2563eb;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.Authentication_signupLink__TjTF5:hover {
+  color: #1d4ed8;
+}
+
