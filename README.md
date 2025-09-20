@@ -48,7 +48,7 @@ Sports-Management/
 
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
-git clone https://github.com/Santhosh-Charanthu/Sports-Management.git
+https://github.com/Nagasai-bole/sport-managemnt-scheduler
 cd Sports-Management
 
 2️⃣ Backend Setup
@@ -103,3 +103,4 @@ Player 🏃 → Can create, join, edit, delete, and leave sessions.
 
 Built as a capstone project using Next.js, Express.js, Passport.js, and MongoDB.
 Inspired by real-world sports scheduling and team management use-cases.
+
