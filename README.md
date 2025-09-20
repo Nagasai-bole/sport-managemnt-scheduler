@@ -1,5 +1,7 @@
 ﻿# sport-managemnt-scheduler
-
+🏆 Sports Scheduler
+A full-stack web application to schedule, manage, and join sports sessions with role-based access for Players and Administrators.
+Built with Next.js (frontend), Express.js (backend), and Passport.js (authentication).
 👑 Administrator
 
 All capabilities of a player.
@@ -103,4 +105,5 @@ Player 🏃 → Can create, join, edit, delete, and leave sessions.
 
 Built as a capstone project using Next.js, Express.js, Passport.js, and MongoDB.
 Inspired by real-world sports scheduling and team management use-cases.
+
 
